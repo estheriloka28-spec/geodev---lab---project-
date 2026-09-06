@@ -10,6 +10,7 @@ Similarly, water — an essential resource for human survival — is scarcely mo
 ## The Data I Need
 - Dumpsite locations in Lagos State
 - Oshodi-Isolo LGA boundary polygon
+- Waterways in Oshodi-Isolo (used as an indicator of shallow water table/groundwater vulnerability, not a direct claim that surface water contaminates boreholes)
 - Health/environmental evidence at Oshodi-Isolo
 - Health/environmental evidence at neighbouring LGA (Alimosho, borders Oshodi-Isolo)
 - LAWMA operational activity (not structured data)
@@ -17,6 +18,7 @@ Similarly, water — an essential resource for human survival — is scarcely mo
 ## Data Source
 - Source: https://www.open.africa/dataset/lagos-dump-sites
 - Source: Nigeria Administrative Boundaries (COD-AB), OCHA/HDX: https://data.humdata.org/dataset/cod-ab-nga
+- Source: https://data.humdata.org/dataset/hotosm_nga_waterways
 - Source: Kayode, Okagbue & Achuka, “Water quality assessment for groundwater around a municipal waste dumpsite,” Data in Brief, 2018, DOI: 10.1016/j.dib.2018.01.072
 - Source: Aliu, IR, “Socio-Environmental, Residential and Health Effects of Waste Dumpsites in Igando-Alimosho area of Lagos, Nigeria,” Journal of Applied Science and Environmental Management, 25(6), 2021, DOI: 10.4314/jasem.v25i6.12
 - Source: FIJ, PM News — to be logged manually as supporting context, not primary data
