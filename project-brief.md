@@ -11,6 +11,8 @@ Similarly, water — an essential resource for human survival — is scarcely mo
 - Dumpsite locations in Lagos State
 - Oshodi-Isolo LGA boundary polygon
 - Waterways in Oshodi-Isolo — used to assess the proximity of dumpsites to surface-water features and potential environmental exposure pathways.
+- Documented groundwater sampling locations (wells/boreholes) around relevant dumpsites
+- Groundwater-quality data from those sampling locations
 - Health/environmental evidence at Oshodi-Isolo
 - Health/environmental evidence at neighbouring LGA (Alimosho, borders Oshodi-Isolo)
 - LAWMA operational activity (not structured data)
@@ -19,13 +21,13 @@ Similarly, water — an essential resource for human survival — is scarcely mo
 - Source: https://www.open.africa/dataset/lagos-dump-sites
 - Source: Nigeria Administrative Boundaries (COD-AB), OCHA/HDX: https://data.humdata.org/dataset/cod-ab-nga
 - Source: https://data.humdata.org/dataset/hotosm_nga_waterways
+- Source: Documented groundwater sampling locations + groundwater-quality data:
+Kayode, O. T., Okagbue, H. I., & Achuka, J. A. (2018). Water quality assessment for groundwater around a municipal waste dumpsite. Data in Brief, 17, 579–587.
+Open-access article and dataset (PMC)
 - Source: Kayode, Okagbue & Achuka, “Water quality assessment for groundwater around a municipal waste dumpsite,” Data in Brief, 2018, DOI: 10.1016/j.dib.2018.01.072
 - Source: Aliu, IR, “Socio-Environmental, Residential and Health Effects of Waste Dumpsites in Igando-Alimosho area of Lagos, Nigeria,” Journal of Applied Science and Environmental Management, 25(6), 2021, DOI: 10.4314/jasem.v25i6.12
 - Source: FIJ, PM News — to be logged manually as supporting context, not primary data
   
 ## What I Will Build
-An automated, updatable map for Oshodi-Isolo that:
-‎- Filters and displays dumpsite locations within Oshodi-Isolo’s LGA boundary.
-‎- Overlays known environmental/health risk points.
-‎- Flags wards where dumpsite density is high but no health/environmental study yet exists
-‎
+- An automated, updatable map for Oshodi-Isolo showing where dumpsites are concentrated and their proximity to waterways and documented groundwater sources, supported by available environmental and health evidence.
+‎- It may be a spatial decision-support tool that can help regulators, water producers, and environmental organizations identify areas requiring closer environmental and groundwater-quality assessment before establishing or approving water-production facilities.
