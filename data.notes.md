@@ -1,7 +1,7 @@
 # Data notes 
 
 ## NGA LGA Boundaries (GRID3)
-- Source: NGA_LGA_Boundaries shapefile / geojson
+- Source: https://data.grid3.org
 - Downloaded: 27/09/2026
 - Features: 774 features, polygons (All Nigeria LGAs)
 - Columns: FID (integer), globalid (text), uniq_id (text), timestamp (date), editor (text), lganame (text), lgacode (text), statename (text), statecode (text), source (text), amapcode (text)
