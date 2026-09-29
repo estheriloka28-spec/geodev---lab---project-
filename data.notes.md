@@ -7,7 +7,22 @@
 - Columns: FID (integer), globalid (text), uniq_id (text), timestamp (date), editor (text), lganame (text), lgacode (text), statename (text), statecode (text), source (text), amapcode (text)
 - No nulls in lganame, statename
 - Geometry type: Polygon (MultiPolygon)
-- Coverage: Covers all 774 LGAs in Nigeria. Oshodi-Isolo extracted. 
+- Coverage: Covers all 774 LGAs in Nigeria. Oshodi-Isolo extracted.
+
+## Waterways
+- Source: HOTOSM via HDX
+- Source Link: https://production-raw-data-api.s3.amazonaws.com/ISO3/NGA/waterways/hotosm_nga_waterways_osm_shp.zip
+-Downloaded 28/09/2026
+- Features:
+- Columns
+
+## Dumpsites
+- Source: eHealth Africa GeoServer - sv_dump_sites
+- Source Link: https://gis-geoserver.ehealthafrica.org/geoserver/eHA_db/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=eHA_db:sv_dump_sites&outputFormat=application/json&authkey=fdfe9a37-d2d8-4210-9a15-25dab5d907fa
+- Downloaded 28/09/2026
+- Features:
+- Columns: 
+- Note: Only 1 feature returned for Oshodi-Isolo after clipping - major data gap identified.
 
 ## OSM roads, extracted via QuickOSM
 - Source: OpenStreetMap via QuickOSM plugin in QGIS
@@ -15,7 +30,8 @@
 - Extracted: 27/09/2026
 - Features: 2,626 features, lines
 - Many nulls in name and surface - paved/unpaved cannot be separated everywhere.
-- Coverage: Good in built-up area, gaps are airport and large compounds. 
+- Coverage: Good in built-up area, gaps are airport and large compounds.
+   
 ## CRS and preparation
 - All source layers arrived in EPSG:4326
 - Study area: Oshodi-Isolo LGA, extracted from GRID3 Nigeria LGA Boundaries
