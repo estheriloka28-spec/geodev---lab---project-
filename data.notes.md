@@ -20,9 +20,18 @@
 - Source: eHealth Africa GeoServer - sv_dump_sites
 - Source Link: https://gis-geoserver.ehealthafrica.org/geoserver/eHA_db/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=eHA_db:sv_dump_sites&outputFormat=application/json&authkey=fdfe9a37-d2d8-4210-9a15-25dab5d907fa
 - Downloaded 28/09/2026
-- Features:
-- Columns: 
 - Note: Only 1 feature returned for Oshodi-Isolo after clipping - major data gap identified.
+  
+## LAWMA Official (Custom Excel)
+- Method: Manual Excel compilation, lat/long -> Point
+- 6 features
+- Columns: Name, latitude, longitude, type
+- Finding: 0 of 6 fall inside Oshodi-Isolo LGA
+
+## Land use - Landfill (OSM Supplement)
+- Source: QuickOSM search - key=landuse, value=landfill
+- Geometry: MultiPolygon
+- Features: 1 in Lagos
 
 ## OSM roads, extracted via QuickOSM
 - Source: OpenStreetMap via QuickOSM plugin in QGIS
