@@ -7,7 +7,7 @@
 - Columns: FID (integer), globalid (text), uniq_id (text), timestamp (date), editor (text), lganame (text), lgacode (text), statename (text), statecode (text), source (text), amapcode (text)
 - No nulls in lganame, statename
 - Geometry type: Polygon (MultiPolygon)
-- Coverage: Covers all 774 LGAs in Nigeria. Oshodi-Isolo extracted as oshodi_boundary.geojson. 
+- Coverage: Covers all 774 LGAs in Nigeria. Oshodi-Isolo extracted. 
 
 ## OSM roads, extracted via QuickOSM
 - Source: OpenStreetMap via QuickOSM plugin in QGIS
