@@ -18,3 +18,6 @@
 ## Week 4 - Analysis & Map:
 - [Final Map](week-4/Oshodi_Final.jpg)
 - [Month 1 Summary](week-4/month-1-summary.md)
+
+- Month 2: development environment and early Python
+## Week 5 - set up Python, VS Code and the terminal. hello.py runs.
